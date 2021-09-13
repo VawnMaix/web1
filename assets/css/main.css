@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.header_app{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25rem;
+    background-color: white;
+    width: 100%;
+    height: 12vh;
+}
+
+.logo{
+    padding-top: 2vh;
+}
+
+.input{
+    padding-top: 4vh;
+}
+
+.input_sty{
+    width: 50rem;
+    height: 60%;
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #ddd;
+    padding-left: 1rem;
+}
+
+.card{
+    padding-top: 4vh;
+}
+
+.header-app_bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22rem;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(153, 187, 85);
+    position: relative;
+}
+
+#logo-small{
+    width: 25rem;
+    height: auto;
+    display: none;
+}
+
+.header_list{
+    display: flex;
+    list-style:  none;
+}
+
+#home{
+    color: black;
+    transform: scale(1.15);
+    font-weight: 900;
+    
+}
+
+.header_list li{
+    overflow: hidden;
+}
+
+.header_list li a{
+    display: block;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 0 2rem;
+    line-height: 7rem;
+    color: white;
+    transition: 1s;
+}
+
+.header_list li a:hover{
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    transform: scale(1.15);
+}
+
+#user{
+    font-size: 3rem;
+}
+
+.body_img{
+    position: relative;
+}
+
+.body_logo{
+    width: 100%;
+    height: auto;
+}
+
+.honglien{
+    position: absolute;
+    top: 32%;
+    left: 43.8%;
+    text-align: center;
+}
+
+.honglien h1{
+    margin: 0;
+    animation: aniName 10s ease;
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 800;
+    color: red;
+    transition-delay: 1s;
+}
+
+.honglien span{
+    margin: 0;
+    animation: aniName2 10s ease;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    transition-delay: 1s;
+    display: inline-block;
+}
+
+@keyframes aniName{
+    from{
+        transform: translateX(-200%);
+        opacity: 1;
+        color: white;
+    }50%{
+        transform: translateX(160%);
+        opacity: 1;
+        color: blue;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+        color: darkmagenta;
+    }
+}
+
+@keyframes aniName2{
+    from{
+        transform: translateX(300%);
+        opacity: 1;
+        color: white;
+    }50%{
+        transform: translateX(-260%);
+        opacity: 1;
+        color: blue;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+        color: darkmagenta;
+    }
+}
+
+.gioithieu{
+    display: flex;
+    background-color:#ddd ;
+    
+}
+
+.gioithieu_text{
+    padding: 0 20rem;
+}
+
+.gioithieu_text h1 span{
+    font-size: 5rem;
+    color: #583;
+}
+
+.gioithieu_text h1{
+    font-size: 5rem;
+    color: black;
+}
+
+.gioithieu_text p{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.gioithieu_text-info{
+    position: relative;
+    z-index: 2;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.info_content, .info_content1{
+    display: block;
+    margin-top: 3rem;
+    padding: 2rem 2rem;
+    font-size: 3rem;
+    color: black;
+    z-index: 2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.info_content::before{
+    content:" ";
+    bottom: 0;
+    left: 0;
+    width: 17%;
+    height: 70%;
+    background-color: rgba(74,120,45,0.6);
+    position: absolute;
+    z-index: 1;
+    border-radius: 5rem;
+    transition: 1s;
+}
+
+.info_content:hover::before{
+    width: 45%;
+}
+
+.info_content:hover, .info_content1:hover{
+    color: red;
+}
+
+
+.info_content1::before{
+    content: " ";
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    height: 20%;
+    width: 20%;
+    background: transparent;
+    border-top: black 0.3rem solid;
+    border-left: black 0.3rem solid;
+    transition: 0.5s;
+}
+
+.info_content1::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 20%;
+    width: 20%;
+    background: transparent;
+    border-bottom: black 0.3rem solid;
+    border-right: black 0.3rem solid;
+    transition: 0.5s;
+}
+
+.info_content1:hover::before{
+    width: 100%;
+    height: 68%;
+}
+
+.info_content1:hover::after{
+    width: 100%;
+    height: 68%;
+}
+
+.theloai{
+    display: flex;
+    justify-content: center;
+}
+
+.theloai_anh{
+    width: 50%;
+}
+
+.theloai_ds{
+    max-width: 50%;
+    display: flex;
+}
+
+.theloai_gt{
+    width: 50%;
+    padding: 5rem;
+}
+
+.theloai_gt h1{
+    font-size: 5rem;
+    color: #583;
+}
+
+.theloai_gt p{
+    font-size: 2rem;
+}
+
+.loaitra_gt h1{
+    text-align: center;
+    font-size: 5rem;
+    margin: 0.5rem 0;
+    color: #583;
+    padding-top: 2rem;
+}
+
+.loaitra_anh{
+    display: flex;
+    justify-content: center;
+}
+
+.anhintro{
+    width: 15rem;
+}
+
+.anhintro1{
+    width: 5rem;
+    margin: 0 3rem; 
+}
+
+.tra_loaitra{
+    background-color: #ddd;
+    padding-bottom: 5rem;
+}
+
+.loaitra_ds{
+    display: flex;
+    justify-content: center;
+}
+
+.loaitra_ds-item{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5rem;
+    border-radius: 2rem;
+}
+
+.loaitra_ds-gt{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    padding: 0 2rem;  
+    transition: 0.5s; 
+}
+
+.gt_thongtin{
+    font-size: 4rem;
+    color: yellow;
+    text-align: center;
+    margin: 1rem 0 ;
+}
+
+.gt_thongtin-con{
+    font-size: 2rem;
+    color: white;
+    display: none;
+}
+
+.loaitra_ds-item:hover .gt_thongtin-con{
+    display: block;
+}
+
+.loaitra_ds-item:hover .gt_thongtin{
+    color: white;
+}
+
+.loaitra_ds-item:hover .loaitra_ds-gt{
+    height: 70%;
+    background-color: rgba(74,120,45,0.6);
+}
+
+.ds_anh{
+    width: 50rem;
+}
+
+.xemthem{
+    display: flex;
+    justify-content: center; 
+}
+
+.xemthemid{
+    text-decoration: none;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 2rem 5rem;
+    border-radius: 4rem;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.xemthemid:hover{
+    color: black;
+    background-color: white;
+    font-weight: 900;
+}
+
+.banchay{
+    font-size: 5rem;
+    text-align: center;
+    color: red;
+}
+
+.sanpham{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.sanpham_list{
+    margin: 0 1.5rem;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #ddd;
+}
+
+.sanpham_list:hover{
+    transform: scale(1.05);
+    border: 1px solid red;
+}
+
+.sanpham_list-ds{
+    text-decoration: none;
+}
+
+.sanpham_thongtin h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.sanpham_thongtin p {
+    font-size: 2.5rem;
+    text-align: center;
+    color:#583;
+}
+
+.sanpham_thongtin a{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sanpham_thongtin span{
+    font-size: 2rem;
+    text-decoration: line-through;
+    color: black;
+}
+
+.anhsp{
+    width: 40rem;
+    height: 35rem;
+}
+
+.anhkq{
+    width: 74.1rem;
+    height: 100%;
+}
+
+.text_bottom{
+    background-image: url('../img/bgimg.jpg');
+}
+
+.gioithieu_text.text_bottom span{
+    color: white;
+}
+
+.cmt{
+    background-image: url(../img/mota-ngan.jpg);
+}
+
+.cmt h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+.cmt h2 span{
+    font-size: 5rem;
+    color: #583;
+}
+
+.swiper {
+    width: 90%;
+    height: 30vh;
+}
+
+.swiper-slide{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide_img{
+    display: flex;
+}
+
+.cmt_img{
+    margin: 0 3rem 0 3rem;
+}
+
+.slide_img div h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+    padding: 0;
+    color: #583;
+}
+
+.slide_img div p{
+    font-size: 1.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 15rem;
+    background-color: #ddd;
+}
+
+.footer_content{
+    width: 30%;
+    
+}
+
+.footer_content h1{
+    font-size: 3rem;
+    padding: 0;
+    margin:  1rem 0;
+}
+.footer_content h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+.footer_content span{
+    font-size: 2rem;
+    
+}
+
+#input_content{
+    width: 100%;
+    height: 4rem;
+    margin-top: -2rem;
+}
+
+.footer_right{
+    text-align: right;
+}
+
+#gototop{
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    background: rgba(0,0,0,0.3);
+    z-index: 1;
+    display: none;
+}
+
+#gototop a{
+    color: red;
+    padding: 30px 20px 0 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.icongoto{
+    font-size: 5rem;
+}
+
+#icon{
+    position: fixed;
+    left: 0;
+    top: 25%;
+}
+
+.icon_qc li{
+    display: flex;
+}
+
+.icon_qc-gt{
+    color: #583;
+    margin: 0.5rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    font-weight: 900;
+    display: none;
+}
+
+.iconmxh{
+    font-size: 5rem;
+    color: #583;
+    margin: 0.5rem;
+}
+
+.icon_qc li:hover .icon_qc-gt{
+    display: block;
+}
