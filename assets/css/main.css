@@ -161,8 +161,11 @@
 
 .gioithieu{
     display: flex;
-    background-color:#ddd ;
-    
+    background-color:#ddd ;  
+}
+
+.gioithieu2{
+    background-color: white;
 }
 
 .gioithieu_text{
@@ -189,6 +192,11 @@
     z-index: 2;
     max-width: 50%;
     overflow: hidden;
+}
+
+.gioithieu_img{
+    max-width: 40%;
+    height: auto;
 }
 
 .info_content, .info_content1{
@@ -405,7 +413,7 @@
 }
 
 .sanpham_list{
-    margin: 0 1.5rem;
+    margin: 0 5rem;
     transition: all 0.5s ease-in-out;
     border: 1px solid #ddd;
 }
@@ -426,15 +434,10 @@
     margin-bottom: 0;
 }
 
-.sanpham_thongtin p {
+.sanpham_thongtin p{
     font-size: 2.5rem;
     text-align: center;
     color:#583;
-}
-
-.sanpham_thongtin a{
-    text-align: center;
-    font-size: 2.5rem;
 }
 
 .sanpham_thongtin span{
@@ -444,13 +447,8 @@
 }
 
 .anhsp{
-    width: 40rem;
-    height: 35rem;
-}
-
-.anhkq{
-    width: 74.1rem;
-    height: 100%;
+    width: 45rem;
+    height: 40rem;
 }
 
 .text_bottom{
@@ -557,7 +555,7 @@
 
 #gototop a{
     color: red;
-    padding: 30px 20px 0 20px;
+    padding: 3rem 2rem 0 2rem;
     text-decoration: none;
     display: block;
     font-weight: bold;
