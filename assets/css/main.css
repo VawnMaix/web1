@@ -195,8 +195,12 @@
 }
 
 .gioithieu_img{
-    width: 100%;
+    width: 35%;
     height: auto;
+}
+
+.gioithieu_img img{
+    display: block;
 }
 
 .info_content, .info_content1{
