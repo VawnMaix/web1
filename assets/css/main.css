@@ -195,8 +195,8 @@
 }
 
 .gioithieu_img{
-    width: 35%;
-    height: 100%;
+    width: auto;
+    height: 80%;
 }
 
 .gioithieu_img img{
