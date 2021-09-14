@@ -195,8 +195,8 @@
 }
 
 .gioithieu_img{
-    max-width: 40%;
-    max-height: 40%;
+    width: 100%;
+    height: auto;
 }
 
 .info_content, .info_content1{
