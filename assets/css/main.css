@@ -210,6 +210,10 @@
     font-weight: 600;
 }
 
+.info_content1{
+    text-align: center;
+}
+
 .info_content::before{
     content:" ";
     bottom: 0;
@@ -224,7 +228,7 @@
 }
 
 .info_content:hover::before{
-    width: 50%;
+    width: 55%;
 }
 
 .info_content:hover, .info_content1:hover{
