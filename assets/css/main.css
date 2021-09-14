@@ -214,7 +214,7 @@
     content:" ";
     bottom: 0;
     left: 0;
-    width: 17%;
+    width: 20%;
     height: 70%;
     background-color: rgba(74,120,45,0.6);
     position: absolute;
@@ -224,7 +224,7 @@
 }
 
 .info_content:hover::before{
-    width: 45%;
+    width: 50%;
 }
 
 .info_content:hover, .info_content1:hover{
