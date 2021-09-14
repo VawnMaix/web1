@@ -228,7 +228,7 @@
 }
 
 .info_content:hover::before{
-    width: 100%;
+    width: 55%;
 }
 
 .info_content:hover, .info_content1:hover{
