@@ -169,7 +169,7 @@
 }
 
 .gioithieu_text{
-    padding: 0 20rem;
+    padding: 5rem 20rem;
 }
 
 .gioithieu_text h1 span{
@@ -178,7 +178,7 @@
 }
 
 .gioithieu_text h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: black;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .gioithieu_img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
