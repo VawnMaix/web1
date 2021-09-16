@@ -2,24 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 7px;
+    font-size: 10px;
 }
 
-.header_app{
+.selection{
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding-bottom: 2%;
+}
+
+.selection2{
+    margin-top: -2%;
+}
+
+#header-container{
+    max-width: 100%;
+    height: 22vh;
+    background-color: red;
+}
+
+#header_app{
     display: flex;
     justify-content: space-between;
-    padding: 0 25rem;
+    padding:  0 10%;
     background-color: white;
     width: 100%;
     height: 12vh;
 }
 
 .logo{
-    padding-top: 2vh;
-}
+    padding-top: 5%;
+} 
 
 .input{
-    padding-top: 4vh;
+    padding-top: 2%;
 }
 
 .input_sty{
@@ -35,18 +52,18 @@
     padding-top: 4vh;
 }
 
-.header-app_bot{
+#header-app_bot{
     display: flex;
     justify-content: space-between;
-    padding: 0 22rem;
+    padding: 0 5%;
     width: 100%;
-    height: 7rem;
+    height: 10vh;
     background-color: rgb(153, 187, 85);
     position: relative;
 }
 
 #logo-small{
-    width: 25rem;
+    width: 70%;
     height: auto;
     display: none;
 }
@@ -59,7 +76,7 @@
 #home{
     color: black;
     transform: scale(1.15);
-    font-weight: 900;
+    font-weight: 700;
     
 }
 
@@ -71,8 +88,8 @@
     display: block;
     text-decoration: none;
     font-size: 3rem;
-    padding: 0 2rem;
-    line-height: 7rem;
+    padding: 0 2.5rem;
+    line-height: 10vh;
     color: white;
     transition: 1s;
 }
@@ -81,7 +98,7 @@
     color: black;
     background-color: white;
     font-weight: 500;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 #user{
@@ -169,7 +186,8 @@
 }
 
 .gioithieu_text{
-    padding: 5rem 20rem;
+    width: 55%;
+    margin: 1% 2% ;
 }
 
 .gioithieu_text h1 span{
@@ -178,8 +196,9 @@
 }
 
 .gioithieu_text h1{
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: black;
+    padding-left: 3%;
 }
 
 .gioithieu_text p{
@@ -191,13 +210,20 @@
     position: relative;
     z-index: 2;
     max-width: 50%;
-    overflow: hidden;
 }
 
 .gioithieu_img{
-    width: 100%;
+    width: 45%;
     height: auto;
+    overflow: hidden;
 }
+
+.gioithieu_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 
 .info_content, .info_content1{
     display: block;
@@ -210,16 +236,12 @@
     font-weight: 600;
 }
 
-.info_content1{
-    text-align: center;
-}
-
 .info_content::before{
     content:" ";
     bottom: 0;
     left: 0;
-    width: 20%;
-    height: 70%;
+    width: 15%;
+    height: 100%;
     background-color: rgba(74,120,45,0.6);
     position: absolute;
     z-index: 1;
@@ -228,7 +250,7 @@
 }
 
 .info_content:hover::before{
-    width: 55%;
+    width: 20rem;
 }
 
 .info_content:hover, .info_content1:hover{
@@ -239,7 +261,7 @@
 .info_content1::before{
     content: " ";
     position: absolute;
-    top: 3rem;
+    top: 0;
     left: 0;
     height: 20%;
     width: 20%;
@@ -263,49 +285,55 @@
 }
 
 .info_content1:hover::before{
-    width: 100%;
-    height: 68%;
+    width: 98%;
+    height: 96%;
 }
 
 .info_content1:hover::after{
+    width: 98%;
+    height: 96%;
+}
+
+.tra-review{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review_ds{
+    width: 50%;
+    display: flex;
+}
+
+.review_anh{
+    width: 50%;
+}
+
+.review_anh img{
+    display: block;
     width: 100%;
-    height: 68%;
+    height: 100%;
 }
 
-.theloai{
-    display: flex;
-    justify-content: center;
-}
-
-.theloai_anh{
+.review_gt{
     width: 50%;
+    padding: 5%;
 }
 
-.theloai_ds{
-    max-width: 50%;
-    display: flex;
-}
-
-.theloai_gt{
-    width: 50%;
-    padding: 5rem;
-}
-
-.theloai_gt h1{
+.review_gt h1{
     font-size: 5rem;
     color: #583;
 }
 
-.theloai_gt p{
+.review_gt p{
     font-size: 2rem;
 }
 
 .loaitra_gt h1{
     text-align: center;
     font-size: 5rem;
-    margin: 0.5rem 0;
+    padding-top: 2%;
     color: #583;
-    padding-top: 2rem;
+    margin-top: 0;
 }
 
 .loaitra_anh{
@@ -322,23 +350,29 @@
     margin: 0 3rem; 
 }
 
-.tra_loaitra{
-    background-color: #ddd;
-    padding-bottom: 5rem;
-}
 
 .loaitra_ds{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+}
+
+.ds_anh{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .loaitra_ds-item{
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    margin: 5rem;
-    border-radius: 2rem;
+    width: 25%;
+    margin: 2%;
+    border-radius: 10%;
 }
+
 
 .loaitra_ds-gt{
     position: absolute;
@@ -347,9 +381,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50%;
-    padding: 0 2rem;  
+    height: 50%; 
     transition: 0.5s; 
+    padding: 0 3rem;
 }
 
 .gt_thongtin{
@@ -378,10 +412,6 @@
     background-color: rgba(74,120,45,0.6);
 }
 
-.ds_anh{
-    width: 50rem;
-}
-
 .xemthem{
     display: flex;
     justify-content: center; 
@@ -401,13 +431,15 @@
 .xemthemid:hover{
     color: black;
     background-color: white;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .banchay{
     font-size: 5rem;
     text-align: center;
     color: red;
+    margin: 0;
+    padding: 5rem;
 }
 
 .sanpham{
@@ -417,18 +449,19 @@
 }
 
 .sanpham_list{
-    margin: 0 5rem;
+    width: 25%;
+    margin: 0 2%;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #ddd;
+    text-align: center;
 }
 
 .sanpham_list:hover{
     transform: scale(1.05);
-    border: 1px solid red;
 }
 
 .sanpham_list-ds{
     text-decoration: none;
+    display: block;
 }
 
 .sanpham_thongtin h1{
@@ -451,12 +484,9 @@
 }
 
 .anhsp{
-    width: 45rem;
-    height: 40rem;
-}
-
-.text_bottom{
-    background-image: url('../img/bgimg.jpg');
+   display: block;
+   width: 100%;
+   height: 100%;
 }
 
 .gioithieu_text.text_bottom span{
@@ -508,6 +538,10 @@
 
 .slide_img div p{
     font-size: 1.5rem;
+}
+
+.sukien{
+    background-color: white;
 }
 
 .footer{
