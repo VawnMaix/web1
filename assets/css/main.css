@@ -74,6 +74,7 @@
     height: auto;
     display: none;
     text-align: center;
+    line-height: 10vh;
 }
 
 .header_list{
