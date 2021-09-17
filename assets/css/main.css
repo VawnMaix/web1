@@ -62,6 +62,10 @@
     position: relative;
 }
 
+#header-app_bot div{
+    width: 50%;
+}
+
 #logo-small{
     width: 70%;
     height: auto;
@@ -71,7 +75,6 @@
 .header_list{
     display: flex;
     list-style:  none;
-    width: 50%;
 }
 
 #home{
