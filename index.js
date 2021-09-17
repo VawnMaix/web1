@@ -17,6 +17,7 @@ window.onscroll = function(){
     }else{
         gototop.style.display = "none";
         header_bot.style.position = "relative";
+        header_bot.style.background = "rgb(153, 187, 85)"
         logo.style.display = "none";
         icon.style.display = "none";
     }
