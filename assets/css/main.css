@@ -59,6 +59,7 @@
     background-color: rgb(153, 187, 85);
     position: relative;
     padding: 0 5%;
+    line-height: 10vh;
 }
 
 .header-app_bot div:last-child{
@@ -72,7 +73,6 @@
     height: auto;
     display: none;
     text-align: center;
-    line-height: 10vh;
 }
 
 .header_list{
@@ -99,7 +99,6 @@
     text-decoration: none;
     font-size: 3rem;
     padding: 0 2.5rem;
-    line-height: 10vh;
     color: white;
     transition: 1s;
 }
