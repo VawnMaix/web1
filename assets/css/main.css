@@ -62,8 +62,8 @@
     position: relative;
 }
 
-#header-app_bot div{
-    width: 50%;
+#header-app_bot div:last-child{
+    width:  60%;
 }
 
 #logo-small{
