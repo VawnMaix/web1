@@ -71,6 +71,7 @@
 .header_list{
     display: flex;
     list-style:  none;
+    width: 50%;
 }
 
 #home{
