@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 1600px){
+    *{
+        font-size: 7px;
+    }
+}
+
+.selection{
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+}
+
+.selection2{
+    padding: 5% 10% 0;
+    background-color: white;
+}
+
+#login{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.loginsty{
+    display: flex;
+}
+
+.loginsty a{
+    text-decoration: none;
+    color: #666f6a;
+    font-size: 2rem;
+    display: block;
+}
+
+.loginsty a:hover{
+    color: white;
+}
+
+.loginsty span{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+#header-container{
+    max-width: 100%;
+    background-color: red;
+}
+
+#header_app{
+    display: flex;
+    justify-content: space-between;
+    padding:  2rem 10%;
+    background-color: white;
+    width: 100%;
+}
+
+.input{
+    width: 40%;
+    padding-top: 2rem;
+}
+
+.input_sty{
+    width: 100%;
+    height: 100%;
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #ddd;
+    padding-left: 1rem;
+}
+
+.card{
+   font-size: 5rem;
+   color: #88b44e;
+   padding-top: 2rem;
+}
+
+.header-app_bot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(153, 187, 85);
+    position: relative;
+    padding: 0 5%;
+}
+
+.header-app_bot div:last-child{
+    width:  70%;
+    display: block;
+}
+
+
+#logo-small{
+    width: 60%;
+    height: auto;
+    display: none;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header_list{
+    display: flex;
+    list-style:  none;
+    justify-content: space-between;
+}
+
+.header_list li{
+    width: 16.66%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home{
+    color: black;
+    transform: scale(1.1);
+}
+
+.header_list li a{
+    display: block;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 3.9rem 2.5rem;
+    color: white;
+    transition: 1s;
+}
+
+.header_list li a:hover{
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    transform: scale(1.1);
+}
+
+#user{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.body_logo{
+    width: 100%;
+    height: auto;
+}
+
+.gioithieu{
+    display: flex;
+    background-color:white ;  
+}
+
+.gioithieu_img{
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+}
+
+.gioithieu_img img{
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.gioithieu_text{
+    width: 65%;
+    margin: 1% 2% ;
+}
+
+.gioithieu_text h1 span{
+    font-size: 5rem;
+    color: #583;
+}
+
+.gioithieu_text h1{
+    font-size: 5rem;
+    color: black;
+    padding-left: 3%;
+}
+
+.gioithieu_text p{
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 15rem;
+    background-color: #ddd;
+}
+
+.footer_content{
+    width: 30%;
+    
+}
+
+.footer_content h1{
+    font-size: 3rem;
+    padding: 0;
+    margin:  1rem 0;
+}
+.footer_content h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+.footer_content span{
+    font-size: 2rem;
+    
+}
+
+#input_content{
+    width: 100%;
+    height: 4rem;
+    padding: 0;
+}
+
+.footer_right{
+    text-align: right;
+}
+
+#gototop{
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    background: rgba(0,0,0,0.3);
+    z-index: 1;
+    display: none;
+}
+
+#gototop a{
+    color: red;
+    padding: 3rem 2rem 0 2rem;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.icongoto{
+    font-size: 5rem;
+}
+
+#icon{
+    position: fixed;
+    left: 0;
+    top: 25%;
+}
+
+.icon_qc li{
+    display: flex;
+}
+
+.icon_qc-gt{
+    color: #583;
+    margin: 0.5rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    font-weight: 900;
+    display: none;
+}
+
+.iconmxh{
+    font-size: 5rem;
+    color: #583;
+    margin: 0.5rem;
+}
+
+.icon_qc li:hover .icon_qc-gt{
+    display: block;
+}

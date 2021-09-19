@@ -22,25 +22,56 @@
     margin-top: -2%;
 }
 
+#login{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.loginsty{
+    display: flex;
+}
+
+.loginsty a{
+    text-decoration: none;
+    color: #666f6a;
+    font-size: 2rem;
+    display: block;
+}
+
+.loginsty a:hover{
+    color: white;
+}
+
+.loginsty span{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
 #header-container{
     max-width: 100%;
-    height: 22vh;
     background-color: red;
 }
 
 #header_app{
     display: flex;
     justify-content: space-between;
-    padding:  0 10%;
+    padding:  2rem 10%;
     background-color: white;
     width: 100%;
-    height: 12vh;
-    line-height: 12vh;
+}
+
+.input{
+    width: 40%;
+    padding-top: 2rem;
 }
 
 .input_sty{
-    width: 50rem;
-    height: 40%;
+    width: 100%;
+    height: 100%;
     font-size: 2.5rem;
     border-radius: 0.5rem;
     background-color: #ddd;
@@ -48,31 +79,31 @@
 }
 
 .card{
-    padding-top: 4vh;
-}
+    font-size: 5rem;
+    color: #88b44e;
+    padding-top: 2rem;
+ }
 
-.header-app_bot{
+ .header-app_bot{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 10vh;
     background-color: rgb(153, 187, 85);
     position: relative;
     padding: 0 5%;
-    line-height: 10vh;
 }
 
 .header-app_bot div:last-child{
-    width:  60%;
+    width:  70%;
     display: block;
 }
-
 
 #logo-small{
     width: 60%;
     height: auto;
     display: none;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .header_list{
@@ -89,16 +120,14 @@
 
 #home{
     color: black;
-    transform: scale(1.15);
-    font-weight: 700;
-    
+    transform: scale(1.1);    
 }
 
 .header_list li a{
     display: block;
     text-decoration: none;
     font-size: 3rem;
-    padding: 0 2.5rem;
+    padding: 3.9rem 2.5rem;
     color: white;
     transition: 1s;
 }
@@ -112,6 +141,7 @@
 
 #user{
     font-size: 3rem;
+    font-weight: 600;
 }
 
 .body_img{
