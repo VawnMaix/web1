@@ -9,6 +9,9 @@
     *{
         font-size: 7px;
     }
+    .card{
+        padding-top: 4rem;
+    }
 }
 
 .selection{
