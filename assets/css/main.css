@@ -524,12 +524,13 @@
     background-color: black;
     color: white;
     transition: 0.5s;
+    font-weight: 700;
+
 }
 
 .xemthemid:hover{
     color: black;
     background-color: white;
-    font-weight: 700;
 }
 
 .banchay{
